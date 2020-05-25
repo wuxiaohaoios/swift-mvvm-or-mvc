@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DD55C86D52A9BE0ED5E6B05 /* Pods_swiftLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10FE512988F876F91E4418 /* Pods_swiftLearning.framework */; };
+		B560288B247B7658002B239C /* JRequets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560287D247B7657002B239C /* JRequets.swift */; };
+		B560288C247B7658002B239C /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602880247B7658002B239C /* HttpRequest.swift */; };
+		B560288D247B7658002B239C /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602882247B7658002B239C /* HUD.swift */; };
+		B560288E247B7658002B239C /* KeyedDecodingContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602883247B7658002B239C /* KeyedDecodingContainer+Extension.swift */; };
+		B560288F247B7658002B239C /* SaveFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602884247B7658002B239C /* SaveFiles.swift */; };
+		B5602890247B7658002B239C /* DMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602886247B7658002B239C /* DMAPI.swift */; };
+		B5602891247B7658002B239C /* DMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602887247B7658002B239C /* DMModel.swift */; };
+		B5602892247B7658002B239C /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602888247B7658002B239C /* MoyaConfig.swift */; };
+		B5602893247B7658002B239C /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560288A247B7658002B239C /* NetworkTools.swift */; };
+		B5602895247B768B002B239C /* netViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5602894247B768B002B239C /* netViewController.swift */; };
 		B5E86E1C247377D00056B979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E86E1B247377D00056B979 /* AppDelegate.swift */; };
 		B5E86E1E247377D00056B979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E86E1D247377D00056B979 /* SceneDelegate.swift */; };
 		B5E86E20247377D00056B979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E86E1F247377D00056B979 /* ViewController.swift */; };
@@ -36,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DA30AB010E793EB13DDA9A8 /* Pods-swiftLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLearning.debug.xcconfig"; path = "Target Support Files/Pods-swiftLearning/Pods-swiftLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		B560287D247B7657002B239C /* JRequets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRequets.swift; sourceTree = "<group>"; };
+		B5602880247B7658002B239C /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		B5602882247B7658002B239C /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		B5602883247B7658002B239C /* KeyedDecodingContainer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+Extension.swift"; sourceTree = "<group>"; };
+		B5602884247B7658002B239C /* SaveFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFiles.swift; sourceTree = "<group>"; };
+		B5602886247B7658002B239C /* DMAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMAPI.swift; sourceTree = "<group>"; };
+		B5602887247B7658002B239C /* DMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMModel.swift; sourceTree = "<group>"; };
+		B5602888247B7658002B239C /* MoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
+		B560288A247B7658002B239C /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		B5602894247B768B002B239C /* netViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netViewController.swift; sourceTree = "<group>"; };
+		B5D2913D77349E3B415F51A7 /* Pods-swiftLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLearning.release.xcconfig"; path = "Target Support Files/Pods-swiftLearning/Pods-swiftLearning.release.xcconfig"; sourceTree = "<group>"; };
 		B5E86E18247377D00056B979 /* swiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E86E1B247377D00056B979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E86E1D247377D00056B979 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +74,7 @@
 		B5E86E3C247377D70056B979 /* swiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E86E40247377D70056B979 /* swiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftLearningUITests.swift; sourceTree = "<group>"; };
 		B5E86E42247377D70056B979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF10FE512988F876F91E4418 /* Pods_swiftLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD55C86D52A9BE0ED5E6B05 /* Pods_swiftLearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B560287B247B7651002B239C /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				B5602889247B7658002B239C /* 类似AFN的封装 */,
+				B560287C247B7657002B239C /* 链式网络请求 */,
+				B560287E247B7658002B239C /* Moya */,
+				B5602894247B768B002B239C /* netViewController.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		B560287C247B7657002B239C /* 链式网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				B560287D247B7657002B239C /* JRequets.swift */,
+			);
+			path = "链式网络请求";
+			sourceTree = "<group>";
+		};
+		B560287E247B7658002B239C /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				B560287F247B7658002B239C /* MoyaBase */,
+				B5602885247B7658002B239C /* MoyaAPI */,
+				B5602888247B7658002B239C /* MoyaConfig.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		B560287F247B7658002B239C /* MoyaBase */ = {
+			isa = PBXGroup;
+			children = (
+				B5602880247B7658002B239C /* HttpRequest.swift */,
+				B5602881247B7658002B239C /* 组件 */,
+			);
+			path = MoyaBase;
+			sourceTree = "<group>";
+		};
+		B5602881247B7658002B239C /* 组件 */ = {
+			isa = PBXGroup;
+			children = (
+				B5602882247B7658002B239C /* HUD.swift */,
+				B5602883247B7658002B239C /* KeyedDecodingContainer+Extension.swift */,
+				B5602884247B7658002B239C /* SaveFiles.swift */,
+			);
+			path = "组件";
+			sourceTree = "<group>";
+		};
+		B5602885247B7658002B239C /* MoyaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B5602886247B7658002B239C /* DMAPI.swift */,
+				B5602887247B7658002B239C /* DMModel.swift */,
+			);
+			path = MoyaAPI;
+			sourceTree = "<group>";
+		};
+		B5602889247B7658002B239C /* 类似AFN的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				B560288A247B7658002B239C /* NetworkTools.swift */,
+			);
+			path = "类似AFN的封装";
+			sourceTree = "<group>";
+		};
 		B5E86E0F247377D00056B979 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +175,8 @@
 				B5E86E34247377D70056B979 /* swiftLearningTests */,
 				B5E86E3F247377D70056B979 /* swiftLearningUITests */,
 				B5E86E19247377D00056B979 /* Products */,
+				C2329BE7769BD1F68BFD9346 /* Pods */,
+				DAD74E80E11BDA87EF323197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +196,7 @@
 				B5E86E1B247377D00056B979 /* AppDelegate.swift */,
 				B5E86E1D247377D00056B979 /* SceneDelegate.swift */,
 				B5E86E1F247377D00056B979 /* ViewController.swift */,
+				B560287B247B7651002B239C /* Net */,
 				B5E86E21247377D00056B979 /* Main.storyboard */,
 				B5E86E27247377D60056B979 /* Assets.xcassets */,
 				B5E86E29247377D60056B979 /* LaunchScreen.storyboard */,
@@ -131,6 +224,23 @@
 			path = swiftLearningUITests;
 			sourceTree = "<group>";
 		};
+		C2329BE7769BD1F68BFD9346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA30AB010E793EB13DDA9A8 /* Pods-swiftLearning.debug.xcconfig */,
+				B5D2913D77349E3B415F51A7 /* Pods-swiftLearning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAD74E80E11BDA87EF323197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF10FE512988F876F91E4418 /* Pods_swiftLearning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E86E45247377D70056B979 /* Build configuration list for PBXNativeTarget "swiftLearning" */;
 			buildPhases = (
+				F883BB82E1EFEEF140D27560 /* [CP] Check Pods Manifest.lock */,
 				B5E86E14247377D00056B979 /* Sources */,
 				B5E86E15247377D00056B979 /* Frameworks */,
 				B5E86E16247377D00056B979 /* Resources */,
+				9E9C24E69464C4A8477C307B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,15 +369,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E9C24E69464C4A8477C307B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftLearning/Pods-swiftLearning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftLearning/Pods-swiftLearning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftLearning/Pods-swiftLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F883BB82E1EFEEF140D27560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5E86E14247377D00056B979 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B5E86E20247377D00056B979 /* ViewController.swift in Sources */,
+				B560288B247B7658002B239C /* JRequets.swift in Sources */,
 				B5E86E1C247377D00056B979 /* AppDelegate.swift in Sources */,
+				B5602892247B7658002B239C /* MoyaConfig.swift in Sources */,
+				B560288E247B7658002B239C /* KeyedDecodingContainer+Extension.swift in Sources */,
 				B5E86E1E247377D00056B979 /* SceneDelegate.swift in Sources */,
+				B5602890247B7658002B239C /* DMAPI.swift in Sources */,
+				B560288D247B7658002B239C /* HUD.swift in Sources */,
+				B5602895247B768B002B239C /* netViewController.swift in Sources */,
 				B5E86E26247377D00056B979 /* swiftLearning.xcdatamodeld in Sources */,
+				B5602891247B7658002B239C /* DMModel.swift in Sources */,
+				B560288F247B7658002B239C /* SaveFiles.swift in Sources */,
+				B5602893247B7658002B239C /* NetworkTools.swift in Sources */,
+				B560288C247B7658002B239C /* HttpRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +600,7 @@
 		};
 		B5E86E46247377D70056B979 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA30AB010E793EB13DDA9A8 /* Pods-swiftLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +618,7 @@
 		};
 		B5E86E47247377D70056B979 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D2913D77349E3B415F51A7 /* Pods-swiftLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
